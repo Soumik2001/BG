@@ -1,0 +1,1604 @@
+@media (min-width: 1150px) and (max-width: 1200px) {
+  .logo {
+    width: 349px;
+    height: 50px;
+  }
+  .separate {
+    width: 1px;
+    height: 55px;
+    background-color: #c6c6c8;
+    position: absolute;
+    right: 25%;
+  }
+  .aboutpara1,
+  .aboutpara2 {
+    padding-right: 30px;
+  }
+  .nav-link {
+    min-width: 164px;
+  }
+
+  .slidehead2 {
+    position: absolute;
+    font-size: 90.9px;
+    font-family: "myFont2";
+    top: 46%;
+    color: #ffffff;
+    left: 20%;
+    letter-spacing: -2px;
+  }
+  .slidehead1 {
+    position: absolute;
+    font-size: 75px;
+    font-family: "myFont2";
+    top: 32%;
+    color: #ffffff;
+    left: 18%;
+  }
+  .slidepara {
+    position: absolute;
+    font-size: 21px;
+    bottom: 24%;
+    color: #ffffff;
+    left: 19%;
+    text-transform: uppercase;
+    letter-spacing: -0.7px;
+  }
+  .swiper1 {
+    width: 92%;
+    height: 100%;
+    position: relative;
+    left: 4.5%;
+    overflow: hidden;
+  }
+  .cardsection {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 21px;
+  }
+  .apprsliderImage1 {
+    width: 100px !important;
+    height: 100px !important;
+    border-radius: 50%;
+    top: 8px;
+    position: relative;
+  }
+  .apprslidertitle {
+    font-family: "myFont2";
+    font-size: 17px;
+    text-transform: uppercase;
+    color: #ffffff;
+    position: relative;
+    top: 26px;
+  }
+  .apprsliderpara {
+    font-size: 16px;
+    color: #ffffff;
+    position: relative;
+    top: 33px;
+    width: 440px;
+  }
+  .apprarrow {
+    position: absolute;
+    bottom: 20%;
+    width: 127px;
+    left: -2%;
+  }
+
+  .blog {
+    z-index: 1000 !important;
+    position: relative;
+    top: 300px;
+  }
+  .blog1 img,
+  .blog2 img,
+  .blog3 img {
+    width: 270px;
+    height: 160px;
+  }
+  /* .blog1,
+  .blog2,
+  .blog3 {
+    width: 219px;
+  } */
+  .blog-title {
+    font-family: "myFont2";
+    font-size: 14.5px;
+    color: #1b1f27;
+    position: relative;
+    top: 0.5rem;
+    width: 265px;
+  }
+  .blog-text {
+    font-size: 14px;
+    color: #4f4f4f;
+    position: relative;
+    top: 0.6rem;
+    width: 266px;
+  }
+  .swiper3 {
+    width: 77%;
+    height: 100%;
+    position: relative;
+    left: 11%;
+    overflow: hidden;
+  }
+  .blog-date {
+    font-size: 14px;
+    color: #43474f;
+    position: relative;
+    top: 12px;
+    text-transform: uppercase;
+  }
+  .blog-rule {
+    width: 270px;
+    height: 3px;
+    background: #0b91f0;
+  }
+  .blogsection {
+    gap: 30px;
+  }
+  .blogarrow {
+    position: absolute;
+    bottom: -10%;
+    width: 130px;
+    left: 45%;
+  }
+  .servicearrow {
+    position: absolute;
+    bottom: -12%;
+    width: 130px;
+    left: 45%;
+  }
+
+  .teamimage {
+    width: 166px !important;
+    height: 200px !important;
+  }
+  .teampara {
+    font-size: 18px;
+    color: #212121;
+    margin: 0 125px 0 143px;
+    position: relative;
+    top: 2.9rem;
+  }
+  .mtext {
+    left: 156px;
+  }
+  .team {
+    position: relative;
+    top: 460px;
+    background: #f9fbfd;
+    height: 584px;
+  }
+  .tarrow {
+    position: absolute;
+    bottom: 19%;
+    width: 130px;
+    left: 44%;
+  }
+  .teamname {
+    font-family: "myFont2";
+    font-size: 20px;
+    color: #0b91ef;
+    position: relative;
+    top: 6px;
+  }
+  .teamrole {
+    font-size: 17px;
+    color: #212121;
+    position: relative;
+    top: -12px;
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1150px) {
+}
+
+@media (min-width: 750px) and (max-width: 992px) {
+  .logo {
+    width: 230px;
+    height: 33px;
+  }
+
+  .topbar,
+  .logosection {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    gap: 25px;
+  }
+
+  .separate {
+    width: 1px;
+    height: 55px;
+    background-color: #c6c6c8;
+    position: absolute;
+    right: 24%;
+  }
+  .tophead {
+    font-family: "myFont2";
+    color: #1f2126;
+    font-size: 16px;
+    margin-bottom: 0px;
+    margin-top: 10px;
+  }
+
+  .toptext {
+    color: #1f2126;
+    font-size: 13px;
+  }
+  .icon {
+    width: 25px;
+    height: 25px;
+    position: relative;
+    left: -5px;
+  }
+  .phone {
+    width: 20px;
+    height: 20px;
+    position: relative;
+    left: 66px;
+  }
+  .logodetail2 {
+    width: 150px;
+    position: relative;
+    left: 63px;
+  }
+  .logodetail1 {
+    width: 190px;
+    position: relative;
+    left: 20px;
+  }
+
+  /* Navbar for tablet */
+  .nav-link {
+    min-width: 120px;
+    font-size: 13px;
+    height: 35px;
+  }
+  .nav-span {
+    top: 4px;
+  }
+
+  .navbar {
+    width: 100%;
+    height: 35px;
+    background-color: #0a42ce;
+  }
+
+  /* slider css */
+
+  .slidehead1 {
+    position: absolute;
+    font-size: 50px;
+    font-family: "myFont2";
+    top: 34%;
+    color: #ffffff;
+    left: 14%;
+  }
+  .slidehead2 {
+    position: absolute;
+    font-size: 61.9px;
+    font-family: "myFont2";
+    top: 45%;
+    color: #ffffff;
+    left: 15%;
+    letter-spacing: -2px;
+  }
+  .slidepara {
+    position: absolute;
+    font-size: 17px;
+    bottom: 24%;
+    color: #ffffff;
+    left: 14%;
+    text-transform: uppercase;
+    letter-spacing: -0.7px;
+  }
+  .slidebutton {
+    position: absolute;
+    bottom: 7%;
+    left: 14%;
+  }
+  .slidebutton button {
+    width: 134px;
+    height: 34px;
+    border: none;
+    outline: none;
+    background-color: #0b91f0;
+    font-size: 14px;
+    font-family: "myFont2";
+    color: #ffffff;
+    transition: all 0.3s ease-in-out;
+    text-transform: uppercase;
+  }
+
+  .swiper-prev {
+    padding-left: 0.9%;
+  }
+  .swiper-next {
+    padding-left: 0.9%;
+  }
+
+  /* About css */
+
+  .about {
+    margin: 2.5% 7% 0 !important;
+    position: relative;
+  }
+
+  .aboutbg {
+    z-index: 10;
+    position: absolute;
+    top: -18px !important;
+    left: -8%;
+  }
+  .abouthead {
+    font-family: "myFont2";
+    font-size: 30px;
+  }
+  .aboutpara1 {
+    font-size: 13px;
+    font-weight: 600;
+    color: #212121;
+    padding-right: 30px;
+  }
+  .aboutpara2 {
+    font-size: 13px;
+    color: #212121;
+    padding-right: 30px;
+  }
+  .aboutbutton {
+    width: 134px;
+    height: 36px;
+    border: none;
+    outline: none;
+    background-color: #0b91f0;
+    font-size: 14px;
+    font-family: "myFont2";
+    color: #ffffff;
+    transition: all 0.3s ease-in-out;
+    text-transform: uppercase;
+    margin-top: 0px;
+  }
+  .button-content {
+    font-size: 14px;
+  }
+  .hero {
+    position: relative;
+    top: 7.5%;
+  }
+  .socialmedia {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    position: absolute;
+    top: 20%;
+    right: 16%;
+  }
+
+  /* service css */
+
+  .service {
+    top: 10px;
+  }
+  .stext {
+    font-size: 30px;
+  }
+  .card1 img,
+  .card2 img,
+  .card3 img {
+    width: 210px;
+    height: 150px;
+  }
+  .card-title {
+    font-family: "myFont2";
+    font-size: 15px;
+    color: #212121;
+    position: relative;
+    top: 0.3rem;
+  }
+  .card-text {
+    font-size: 11px;
+    color: #4f4f4f;
+    position: relative;
+    top: 0.2rem;
+    width: 197px;
+  }
+  .read {
+    font-size: 12px;
+    color: #0b91ef;
+    position: relative;
+    top: -0.9rem;
+    text-transform: uppercase;
+    text-decoration: underline;
+  }
+  .swiper1 {
+    width: 87%;
+    height: 100%;
+    position: relative;
+    left: 6%;
+    overflow: hidden;
+  }
+  .servicearrow {
+    position: absolute;
+    bottom: -12%;
+    width: 100px;
+    left: 42%;
+  }
+
+  /* Appraisers css */
+
+  .appr {
+    position: relative;
+    top: 120px;
+  }
+
+  .apprsliderhead {
+    font-family: "myFont2";
+    font-size: 27px;
+    color: #ffffff;
+  }
+  .apprsliderImage1 {
+    width: 70px !important;
+    height: 70px !important;
+    border-radius: 50%;
+    top: 5px;
+    position: relative;
+  }
+  .apprslidertitle {
+    font-family: "myFont2";
+    font-size: 15px;
+    text-transform: uppercase;
+    color: #ffffff;
+    position: relative;
+    top: 20px;
+  }
+  .apprsliderpara {
+    font-size: 13px;
+    color: #ffffff;
+    position: relative;
+    top: 20px;
+    width: 338px;
+  }
+  .apprslider {
+    position: absolute;
+    top: 6%;
+    left: 8%;
+    width: 455px;
+    height: 423px;
+  }
+  .apprarrow {
+    position: absolute;
+    bottom: 40%;
+    width: 95px;
+    left: -2%;
+  }
+  .apprarrow .swiper-button-prev,
+  .apprarrow .swiper-button-next {
+    width: 30px !important;
+    height: 30px !important;
+  }
+
+  /* Blog css */
+
+  .blog {
+    z-index: 1000 !important;
+    position: relative;
+    top: 140px;
+  }
+  .blog1 img,
+  .blog2 img,
+  .blog3 img {
+    width: 219px;
+    height: 130px;
+  }
+  .blog1,
+  .blog2,
+  .blog3 {
+    width: 219px;
+  }
+  .blog-title {
+    font-family: "myFont2";
+    font-size: 12.5px;
+    color: #1b1f27;
+    position: relative;
+    top: 0.5rem;
+    width: 228px;
+  }
+  .blog-text {
+    font-size: 11px;
+    color: #4f4f4f;
+    position: relative;
+    top: 0.6rem;
+    width: 217px;
+  }
+  .swiper3 {
+    width: 93%;
+    height: 100%;
+    position: relative;
+    left: 3.5%;
+    overflow: hidden;
+  }
+  .blog-date {
+    font-size: 12px;
+    color: #43474f;
+    position: relative;
+    top: 10px;
+    text-transform: uppercase;
+  }
+  .blog-rule {
+    width: 225px;
+    height: 2px;
+    background: #0b91f0;
+  }
+  .blogsection {
+    gap: 30px;
+  }
+  .blogarrow {
+    position: absolute;
+    bottom: -10%;
+    width: 100px;
+    left: 42%;
+  }
+  .blogarrow .swiper-button-prev,
+  .blogarrow .swiper-button-next {
+    width: 30px !important;
+    height: 30px !important;
+  }
+  .servicearrow .swiper-button-prev,
+  .servicearrow .swiper-button-next {
+    width: 30px !important;
+    height: 30px !important;
+  }
+
+  /* Team css */
+
+  .team {
+    position: relative;
+    top: 220px;
+    background: #f9fbfd;
+    height: 498px;
+  }
+  .mtext {
+    font-size: 28px;
+    font-family: "myFont2";
+    position: relative;
+    top: 1rem;
+    left: 55px;
+  }
+  .teampara {
+    font-size: 14px;
+    color: #212121;
+    margin: 0 39px 0 44px;
+    position: relative;
+    top: 1.2rem;
+  }
+
+  /* Team css */
+
+  .teamsection {
+    position: relative;
+    top: 3rem;
+    /* height: 450px; */
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    gap: 35px;
+  }
+  .swiper4 {
+    width: 93%;
+    height: 379px;
+    position: relative;
+    left: 3.5%;
+    overflow: hidden;
+  }
+  .teamimage {
+    width: 151px !important;
+    height: 170px !important;
+  }
+  .teamname {
+    font-family: "myFont2";
+    font-size: 17px;
+    color: #0b91ef;
+    position: relative;
+    top: 6px;
+  }
+  .teamrole {
+    font-size: 14px;
+    color: #212121;
+    position: relative;
+    top: -12px;
+  }
+  .tarrow {
+    position: absolute;
+    bottom: 13%;
+    width: 100px !important;
+    left: 43%;
+  }
+  .tarrow .swiper-button-prev,
+  .tarrow .swiper-button-next {
+    width: 30px !important;
+    height: 30px !important;
+  }
+  .team .swiper-slide {
+    background: transparent;
+    height: 388px;
+  }
+
+  /* Contact us */
+
+  .contact {
+    position: relative;
+    top: 213px;
+    height: 550px;
+  }
+
+  .myForm {
+    width: 383px !important;
+    position: absolute;
+    top: 16%;
+    left: 6%;
+  }
+  .contact input {
+    background: transparent;
+    border: none;
+    outline: none;
+    color: #ffffff;
+    width: 240px;
+    float: right;
+    height: 30px;
+    margin-top: -5px;
+  }
+  .contact hr {
+    background: #ffffff;
+    height: 2px;
+    width: 350px;
+    margin-top: 9px;
+    margin-bottom: 2px;
+  }
+  #message {
+    width: 346px;
+    background: transparent;
+    border: none;
+    outline: none;
+    color: #ffffff;
+    resize: none;
+  }
+  .contact-details {
+    width: 280px;
+    position: absolute;
+    top: 97px;
+    left: 22%;
+  }
+  .contacthead {
+    font-family: "myFont2";
+    font-size: 33px;
+    color: #f8fafd;
+  }
+  .contact-call a {
+    font-family: "myFont2";
+    font-size: 31px;
+    color: #f8fafd;
+    margin-top: 40px;
+  }
+  .contact-call span {
+    font-size: 26px;
+  }
+  .contact-email span {
+    font-size: 25px;
+    color: #f8fafd;
+  }
+  .contact-email a {
+    font-family: "myFont2";
+    font-size: 30px;
+    color: #f8fafd;
+    margin-top: 10px;
+    transition: all 0.3s ease-in-out;
+  }
+  .contact-email {
+    margin-top: 45px;
+  }
+
+  /* footer css */
+
+  footer {
+    position: relative;
+    top: 241px;
+  }
+  footer .logo {
+    width: 329px;
+    height: 47px;
+    position: relative;
+    left: -6px;
+  }
+  .logoPara {
+    color: #29292d;
+    font-size: 15px;
+    width: 690px;
+    margin-top: 8px;
+  }
+  .list-inline {
+    position: absolute;
+    top: 12px;
+    left: 462px;
+    width: 209px;
+  }
+  .spc {
+    width: 297px;
+    display: inline-block;
+  }
+  .loc {
+    position: relative;
+    bottom: 24px;
+  }
+  .touch {
+    position: relative;
+    left: 12px;
+  }
+  .list-unstyled {
+    gap: 5px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .copyrightText {
+    width: 130%;
+    position: relative;
+    left: 14%;
+    font-size: 13px;
+    color: #0b91ef;
+    font-weight: 600;
+  }
+  .click-top {
+    cursor: pointer;
+    width: 35px;
+    height: 35px;
+    background: #0b91f0;
+    border-radius: 7px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    right: 8%;
+    bottom: 8%;
+  }
+}
+@media (min-width: 500px) and (max-width: 749px) {
+  .logo {
+    width: 230px;
+    height: 33px;
+  }
+
+  .topbar,
+  .logosection {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    gap: 25px;
+  }
+
+  .separate {
+    width: 1px;
+    height: 55px;
+    background-color: #c6c6c8;
+    position: absolute;
+    right: 24%;
+  }
+  .tophead {
+    font-family: "myFont2";
+    color: #1f2126;
+    font-size: 16px;
+    margin-bottom: 0px;
+    margin-top: 10px;
+  }
+
+  .toptext {
+    color: #1f2126;
+    font-size: 13px;
+  }
+  .icon {
+    width: 25px;
+    height: 25px;
+    position: relative;
+    left: -5px;
+  }
+  .phone {
+    width: 20px;
+    height: 20px;
+    position: relative;
+    left: 66px;
+  }
+  .logodetail2 {
+    width: 150px;
+    position: relative;
+    left: 63px;
+  }
+  .logodetail1 {
+    width: 190px;
+    position: relative;
+    left: 20px;
+  }
+
+  /* Navbar for tablet */
+  .nav-link {
+    min-width: 120px;
+    font-size: 13px;
+  }
+  .navbar {
+    width: 100%;
+    height: 35px;
+    background-color: #0a42ce;
+  }
+
+  /* slider css */
+
+  .slidehead1 {
+    position: absolute;
+    font-size: 50px;
+    font-family: "myFont2";
+    top: 34%;
+    color: #ffffff;
+    left: 14%;
+  }
+  .slidehead2 {
+    position: absolute;
+    font-size: 61.9px;
+    font-family: "myFont2";
+    top: 45%;
+    color: #ffffff;
+    left: 15%;
+    letter-spacing: -2px;
+  }
+  .slidepara {
+    position: absolute;
+    font-size: 17px;
+    bottom: 24%;
+    color: #ffffff;
+    left: 14%;
+    text-transform: uppercase;
+    letter-spacing: -0.7px;
+  }
+  .slidebutton {
+    position: absolute;
+    bottom: 7%;
+    left: 14%;
+  }
+  .slidebutton button {
+    width: 134px;
+    height: 34px;
+    border: none;
+    outline: none;
+    background-color: #0b91f0;
+    font-size: 14px;
+    font-family: "myFont2";
+    color: #ffffff;
+    transition: all 0.3s ease-in-out;
+    text-transform: uppercase;
+  }
+}
+
+@media screen and (max-width: 782px) {
+}
+
+@media screen and (max-width: 637px) {
+}
+
+@media screen and (max-width: 607px) {
+}
+
+@media screen and (max-width: 607px) {
+}
+
+@media screen and (max-width: 470) {
+}
+
+@media screen and (max-width: 500px) {
+  .logo {
+    width: 160px;
+    height: 23px;
+  }
+
+  .topbar,
+  .logosection {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    gap: 14px;
+  }
+  .details {
+    position: relative;
+    left: 80%;
+  }
+  .separate {
+    width: 1px;
+    height: 55px;
+    background-color: #c6c6c8;
+    position: absolute;
+    right: 33%;
+  }
+  .tophead {
+    font-family: "myFont2";
+    color: #1f2126;
+    font-size: 13px;
+    margin-bottom: 0px;
+    margin-top: 10px;
+  }
+
+  .phone {
+    position: relative;
+    left: 32px;
+  }
+
+  .toptext {
+    color: #1f2126;
+    font-size: 11px;
+  }
+  .icon {
+    width: 15px;
+    height: 15px;
+  }
+  .logodetail2 {
+    width: 75px;
+    position: relative;
+    left: 23px;
+  }
+  .logodetail1 {
+    width: 160px;
+    position: relative;
+    left: 10px;
+  }
+
+  /* slider css */
+
+  .slidehead1 {
+    position: absolute;
+    font-size: 20px;
+    font-family: "myFont2";
+    top: 21%;
+    color: #ffffff;
+    left: 13%;
+  }
+  .slidehead2 {
+    position: absolute;
+    font-size: 21.9px;
+    font-family: "myFont2";
+    top: 34%;
+    color: #ffffff;
+    left: 14%;
+    letter-spacing: 0.5px;
+  }
+  .slidepara {
+    position: absolute;
+    font-size: 13px;
+    bottom: 28%;
+    color: #ffffff;
+    left: 13%;
+    text-transform: uppercase;
+    /* letter-spacing: -0.7px; */
+  }
+
+  .slidebutton button {
+    width: 86px;
+    height: 30px;
+    border: none;
+    outline: none;
+    background-color: #0b91f0;
+    font-size: 12px;
+    font-family: "myFont2";
+    color: #ffffff;
+    transition: all 0.3s ease-in-out;
+    text-transform: uppercase;
+    margin: 0 !important;
+  }
+
+  .slidebutton2 {
+    position: relative;
+    left: 10px;
+    top: -1px;
+  }
+
+  .swiper-next {
+    right: 9%;
+  }
+  .swiper-prev {
+    right: 18%;
+  }
+
+  .socialmedia {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    position: absolute;
+    top: 20%;
+    right: 7%;
+  }
+  .socialmedia i {
+    align-content: center;
+    width: 20px;
+    height: 20px;
+    color: #ffffff;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+  }
+  .socialmedia i:hover {
+    color: #ffffff;
+    background: #0b91f0;
+    cursor: pointer;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+  }
+
+  .navbar-brand {
+    background: #ffffff;
+    border-radius: 7px;
+    position: relative;
+    top: -2px;
+  }
+  .navbar-toggler {
+    position: relative;
+    top: -2px;
+    width: 35px !important;
+    height: 35px !important;
+    padding: 5px 0 0 0 !important;
+    align-content: center !important;
+  }
+  .navbar-collapse {
+    display: block;
+    position: absolute;
+    width: 375px !important;
+    left: 0px;
+    top: 49px;
+  }
+  .navbar-nav {
+    position: relative;
+    background: #0a42ce;
+    z-index: 999;
+  }
+  .navfirst {
+    width: 375px;
+  }
+  .dropdown-menu .dropdown-item {
+    /* text-align: left; */
+    background-color: aqua !important;
+  }
+  .nav-link {
+    min-width: 101px;
+    height: 28px;
+    align-content: center;
+    text-transform: uppercase;
+    color: #ffffff !important;
+    display: flex !important;
+    justify-content: center;
+    align-items: center;
+    font-size: 13px;
+  }
+  /* ABOUT CSS */
+
+  .aboutbg {
+    z-index: 10;
+    position: absolute;
+    top: -14px;
+  }
+  .abouthead {
+    font-family: "myFont2";
+    font-size: 27px;
+  }
+  .aboutpara1 {
+    font-size: 14px;
+    font-weight: 600;
+    color: #212121;
+  }
+  .aboutpara2 {
+    font-size: 14px;
+    color: #212121;
+  }
+  .aboutbutton {
+    width: 96px;
+    height: 30px;
+    border: none;
+    outline: none;
+    background-color: #0b91f0;
+    color: #ffffff;
+    transition: all 0.3s ease-in-out;
+    text-transform: uppercase;
+    position: relative;
+    overflow: hidden;
+    margin: -10px 0 20px;
+  }
+  .button-content {
+    font-size: 12.5px;
+    font-family: "myFont2";
+  }
+  .swiper1 {
+    width: 86% !important;
+    height: 100%;
+    position: relative;
+    left: 8%;
+    overflow: hidden !important;
+  }
+
+  /* Service css */
+
+  .service {
+    z-index: 1000 !important;
+    position: relative;
+    top: 30px;
+  }
+
+  .stext {
+    font-size: 27px;
+    font-family: "myFont2";
+  }
+  .card1 img,
+  .card2 img,
+  .card3 img {
+    width: 294px;
+    height: 210px;
+  }
+  .card-title {
+    font-family: "myFont2";
+    font-size: 21px;
+    color: #212121;
+    position: relative;
+    top: 0.8rem;
+  }
+  .card-text {
+    font-size: 14px;
+    color: #4f4f4f;
+    position: relative;
+    top: 1rem;
+    width: 260px;
+  }
+  .read {
+    font-size: 13px;
+    color: #0b91ef;
+    position: relative;
+    top: 0.1rem;
+    text-transform: uppercase;
+    text-decoration: underline;
+  }
+  .sarrow {
+    position: absolute;
+    bottom: -12%;
+    width: 100px !important;
+    left: 37%;
+  }
+  /* Appraisers css */
+
+  .appr {
+    position: relative;
+    top: 150px;
+  }
+
+  .apprsliderhead {
+    font-family: "myFont2";
+    font-size: 24px;
+    color: #ffffff;
+  }
+  .apprsliderImage1 {
+    width: 60px !important;
+    height: 60px !important;
+    border-radius: 50%;
+    top: 2px;
+    position: relative;
+  }
+  .apprslidertitle {
+    font-family: "myFont2";
+    font-size: 14px;
+    text-transform: uppercase;
+    color: #ffffff;
+    position: relative;
+    top: 14px;
+  }
+  .apprsliderpara {
+    font-size: 12px;
+    color: #ffffff;
+    position: relative;
+    top: 13px;
+    width: 290px;
+  }
+  .swiper2 {
+    width: 54%;
+    height: 450px;
+    position: relative;
+    left: 0%;
+    overflow: hidden;
+  }
+  .apprarrow {
+    position: absolute;
+    bottom: 46%;
+    width: 95px;
+    left: -2.8%;
+  }
+  .apprarrow .swiper-button-prev,
+  .apprarrow .swiper-button-next {
+    width: 30px !important;
+    height: 30px !important;
+  }
+
+  /* Blog section */
+
+  .blog {
+    z-index: 1000 !important;
+    position: relative;
+    top: 165px;
+  }
+
+  .blog1 img,
+  .blog2 img,
+  .blog3 img {
+    width: 287px;
+    height: 170px;
+  }
+  .blog1,
+  .blog2,
+  .blog3 {
+    width: 287px;
+  }
+  .blog-title {
+    font-family: "myFont2";
+    font-size: 16px;
+    color: #1b1f27;
+    position: relative;
+    top: 0.2rem;
+    width: 286px;
+  }
+  .blog-text {
+    font-size: 13px;
+    color: #4f4f4f;
+    position: relative;
+    top: 0.6rem;
+    width: 283px;
+  }
+  .swiper3 {
+    width: 93%;
+    height: 100%;
+    position: relative;
+    left: 3.5%;
+    overflow: hidden;
+  }
+  .blog-date {
+    font-size: 15px;
+    color: #43474f;
+    position: relative;
+    top: 10px;
+    text-transform: uppercase;
+  }
+  .blog-rule {
+    width: 289px;
+    height: 3px;
+    background: #0b91f0;
+  }
+  .blogsection {
+    gap: 30px;
+  }
+  .barrow {
+    position: absolute;
+    bottom: -10%;
+    width: 100px !important;
+    left: 36%;
+  }
+  .barrow .swiper-button-prev,
+  .barrow .swiper-button-next {
+    width: 30px !important;
+    height: 30px !important;
+  }
+  .sarrow .swiper-button-prev,
+  .sarrow .swiper-button-next {
+    width: 30px !important;
+    height: 30px !important;
+  }
+
+  /* Team css */
+
+  .team {
+    position: relative;
+    top: 243px;
+    background: #f9fbfd;
+    height: 552px;
+  }
+  .mtext {
+    font-size: 26px;
+    font-family: "myFont2";
+    position: relative;
+    top: 1rem;
+    left: 46px;
+  }
+  .teampara {
+    font-size: 13px;
+    color: #212121;
+    margin: 0 20px 0 34px;
+    position: relative;
+    top: 1.2rem;
+  }
+  .teamsection {
+    position: relative;
+    top: 2rem;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    /* gap: 44px; */
+  }
+  .swiper4 {
+    width: 72% !important;
+    height: 341px;
+    position: relative;
+    left: 14.5%;
+    overflow: hidden;
+  }
+  .teamarrow {
+    position: absolute;
+    bottom: 7%;
+    width: 100px !important;
+    left: 38%;
+  }
+  .teamarrow .swiper-button-prev,
+  .teamarrow .swiper-button-next {
+    width: 30px !important;
+    height: 30px !important;
+  }
+  .team .swiper-wrapper {
+    background: transparent;
+    height: 338px;
+  }
+  .teamname {
+    font-family: "myFont2";
+    font-size: 20px;
+    color: #0b91ef;
+    position: relative;
+    top: 6px;
+  }
+  .teamrole {
+    font-size: 16px;
+    color: #212121;
+    position: relative;
+    top: -12px;
+  }
+  .mainslider .swiper-button-prev,
+  .mainslider .swiper-button-next {
+    width: 30px !important;
+    height: 30px !important;
+  }
+  .mainslider {
+    position: absolute;
+    bottom: 15%;
+    width: 90px;
+    right: 3%;
+  }
+
+  /* contact */
+
+  .contact {
+    position: relative;
+    top: 267px;
+    height: 762px;
+    background: url("../images/appraisersBG.jpg") repeat-y;
+  }
+  .myForm {
+    width: 301px !important;
+    position: absolute;
+    top: 8%;
+    left: 10%;
+  }
+  .contact input {
+    background: transparent;
+    border: none;
+    outline: none;
+    color: #ffffff;
+    width: 167px;
+    float: right;
+    height: 30px;
+    margin-top: -5px;
+  }
+  .contact label {
+    color: #ffffff;
+    font-size: 15px;
+    margin-top: -5px;
+  }
+  .contact hr {
+    background: #ffffff;
+    height: 2px;
+    width: 300px;
+    margin-top: 9px;
+    margin-bottom: 2px;
+  }
+  #message {
+    width: 300px;
+    background: transparent;
+    border: none;
+    outline: none;
+    color: #ffffff;
+    resize: none;
+  }
+  .submit {
+    text-transform: uppercase;
+    font-family: "myFont2";
+    font-size: 15px;
+    width: 114px;
+    height: 37px;
+    border: 2px solid #ffffff;
+    outline: none;
+    background: transparent;
+    color: #ffffff;
+    margin-top: 20px;
+    position: relative;
+    display: inline-block;
+    transition: all 0.8s ease-in-out;
+  }
+  .contact-details {
+    width: 325px;
+    position: absolute;
+    top: 498px;
+    left: 9%;
+    text-align: center;
+  }
+  .contacthead {
+    font-family: "myFont2";
+    font-size: 24px;
+    color: #f8fafd;
+  }
+  .contact-call span {
+    font-size: 20px;
+  }
+  .contact-call,
+  .contact-call a {
+    font-family: "myFont2";
+    font-size: 21px;
+    color: #f8fafd;
+    margin-top: 10px;
+    transition: all 0.3s ease-in-out;
+  }
+  .contact-email span {
+    font-size: 20px;
+    color: #f8fafd;
+  }
+  .contact-email a {
+    font-family: "myFont2";
+    font-size: 22px;
+    color: #f8fafd;
+    margin-top: 15px;
+    transition: all 0.3s ease-in-out;
+  }
+
+  /* Footer css */
+
+  footer {
+    position: relative;
+    top: 285px;
+  }
+  footer .logo {
+    width: 153px;
+    height: 22px;
+  }
+  .logoPara {
+    color: #29292d;
+    font-size: 12.5px;
+    width: 346px;
+    margin-top: 6px;
+    position: relative;
+    left: 6px;
+  }
+  .list-inline {
+    position: absolute;
+    top: 0px;
+    left: 53%;
+  }
+  .list-inline-item {
+    margin-right: 1px !important;
+  }
+  .footHead {
+    font-family: "myFont2";
+    font-size: 17px;
+    color: #0b91ef;
+    position: relative;
+    left: 6px;
+  }
+  .textA {
+    font-size: 12px;
+    color: #29292d;
+  }
+  .seclist {
+    position: relative;
+    left: 9%;
+  }
+  .list-unstyled {
+    gap: 0px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    top: -9px;
+  }
+  .textA i {
+    margin-right: 6px;
+    color: #0b91f0;
+  }
+  .loc {
+    position: relative;
+    bottom: 30px;
+  }
+  .spc {
+    width: 147px;
+    display: inline-block;
+    position: relative;
+    top: 4px;
+  }
+  .round i {
+    width: 27px;
+    height: 27px;
+  }
+  .round i:hover {
+    width: 27px;
+    height: 27px;
+  }
+  .copyrightText {
+    width: 75%;
+    position: absolute;
+    left: 1%;
+    font-size: 10px;
+    color: #0b91ef;
+    font-weight: 600;
+    transition: all 0.3s ease-in-out;
+    bottom: 0%;
+  }
+  .footerSection {
+    background: #222222;
+    height: 65px;
+    /* margin-bottom: 15px; */
+  }
+  .footerSection .container-fluid {
+    height: 65px !important;
+  }
+  .click-top {
+    cursor: pointer;
+    width: 35px;
+    height: 35px;
+    background: #0b91f0;
+    border-radius: 7px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    right: 7%;
+    bottom: 4%;
+  }
+}
+
+@media (min-width: 420px) and (max-width: 428px) {
+  .navbar-collapse {
+    display: block;
+    position: absolute;
+    width: 428px !important;
+    left: 0px;
+    top: 49px;
+  }
+}
+@media (min-width: 414px) and (max-width: 414px) {
+  .navbar-collapse {
+    display: block;
+    position: absolute;
+    width: 414px !important;
+    left: 0px;
+    top: 50px;
+  }
+}
+@media (min-width: 390px) and (max-width: 390px) {
+  .navbar-collapse {
+    display: block;
+    position: absolute;
+    width: 390px !important;
+    left: 0px;
+    top: 50px;
+  }
+}
+
+@media screen and (max-width: 361px) {
+}
+@media screen and (max-width: 330px) {
+}
