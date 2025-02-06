@@ -3,7 +3,7 @@
 var swiper = new Swiper(".mySwiper1", {
   slidesPerView: 1,
   spaceBetween: 0,
-  loop: false,
+  loop: true,
   speed: 2000,
   autoplay: {
     delay: 3000,
@@ -85,4 +85,22 @@ var swiper = new Swiper(".mySwiper9", {
 
 $(".nav-link").on("click", function () {
   $(".navbar-collapse").collapse("hide");
+});
+
+$(document).ready(function () {
+  $(window).scroll(function () {
+    if ($(this).scrollTop() > 100) {
+      $("#scroll").fadeIn();
+    } else {
+      $("#scroll").fadeOut();
+    }
+  });
+  $("#scroll").click(function () {
+    $("html, body").animate({ scrollTop: 0 }, 2000);
+    return false;
+  });
+});
+
+$(document).ready(function () {
+  $('[data-toggle="popover"]').popover();
 });

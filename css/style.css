@@ -52,7 +52,7 @@ ul li {
 }
 
 .toptext {
-  color: #1f2126;
+  color: #464646;
   font-size: 16px;
 }
 
@@ -60,8 +60,8 @@ ul li {
   width: 1px;
   height: 55px;
   background-color: #c6c6c8;
-  position: absolute;
-  right: 22%;
+  position: relative;
+  right: 5%;
 }
 
 .logodetail1 {
@@ -128,38 +128,88 @@ ul li {
 .nav-link {
   position: relative;
   display: inline-block;
-  transition: all 0.5s;
+  transition: all 0.5s ease-in-out;
   z-index: 2;
   color: #ffffff;
 }
+.nav-link:hover {
+  background: #ffffff;
+}
+/* 
+.tool {
+  position: relative;
+  display: inline-block;
+}
 
-.nav-link::before,
-.nav-link::after {
+.tool .tooltiptext {
+  visibility: hidden;
+  width: 200px;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+  position: absolute;
+  z-index: 1;
+  top: 140%;
+  left: 0%;
+  margin-left: -92px;
+  opacity: 0;
+  transition: opacity 1s;
+}
+
+.tool .tooltiptext::after {
   content: "";
   position: absolute;
-  height: 50%;
-  width: 0;
-  background-color: #ffffff;
-  color: #0095ff !important;
-  transition: all 0.5s;
-  z-index: -1;
+  bottom: 100%;
+  left: 50%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: transparent transparent black transparent;
 }
 
-.nav-link::before {
-  right: 0;
-  top: 0;
+.tool:hover .tooltiptext {
+  visibility: visible;
+  opacity: 1;
+  font-size: 12px;
+} */
+
+#myheader {
+  width: 200px;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+  /* position: absolute; */
+  position: fixed;
+  z-index: 1;
+  top: 6%;
+  left: 41%;
+  border: none;
 }
 
-.nav-link::after {
-  left: 0;
-  bottom: 0;
+#myheader1 {
+  width: 100px;
+  height: 60px;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: px 0;
+  position: fixed;
+  z-index: 1;
+  top: 6%;
+  left: 68%;
+  border: none;
 }
 
-.nav-link:hover::before,
-.nav-link:hover::after {
-  width: 100%;
+.toolbtn1 {
+  border: none;
+  outline: none;
+  background: transparent;
 }
-
 /* slider css */
 
 .swiper {
@@ -197,41 +247,14 @@ ul li {
 .mySwiper {
   position: relative;
 }
-.swiper-prev {
-  position: absolute;
-  bottom: 10%;
-  color: #ffffff;
-  z-index: 999;
-  right: 20%;
-  /* background: red; */
-  width: 32px;
-  height: 32px;
-  border-radius: 50%;
-  align-content: center;
-  padding-left: 0.5%;
+
+.mainslider .swiper-button-next:hover,
+.mainslider .swiper-button-prev:hover {
   transition: all 0.3s ease-in-out;
 }
 
-.swiper-next {
-  position: absolute;
-  bottom: 10%;
-  color: #ffffff;
-  z-index: 999;
-  right: 15%;
-  /* background: red; */
-  width: 32px;
-  height: 32px;
-  border-radius: 50%;
-  align-content: center;
-  padding-left: 0.6%;
-  transition: all 0.3s ease-in-out;
-}
-.swiper-next {
-  margin-left: 20px !important;
-}
-
-.swiper-next:hover,
-.swiper-prev:hover {
+.mainslider .swiper-button-next:hover,
+.mainslider .swiper-button-prev:hover {
   width: 32px;
   height: 32px;
   background: #0b91f0;
@@ -248,7 +271,7 @@ ul li {
 }
 .slidehead2 {
   position: absolute;
-  font-size: 105.88px;
+  font-size: 107.88px;
   font-family: "myFont2";
   top: 45%;
   color: #ffffff;
@@ -334,7 +357,7 @@ ul li {
 
 .aboutpara1 {
   font-size: 18px;
-  font-weight: 600;
+  font-family: "myFont2";
   color: #212121;
   padding-right: 23px;
 }
@@ -345,22 +368,28 @@ ul li {
 }
 
 .about {
-  /* background: url("../images/aboutBG.jpg") no-repeat center center;
-  background-size: 778px; */
-  margin: 5.5% 7% 0 !important;
+  /* margin: 5.5% 7% 0 !important; */
   /* height: 778px; */
   position: relative;
+  width: 100%;
+  display: flex;
+  justify-content: center;
 }
 
 .aboutbg {
+  width: 990px !important;
+  height: 620px !important;
   z-index: 10;
   position: absolute;
-  top: -66px;
-  left: -8%;
+  left: 4%;
+  top: 3%;
 }
 .aboutsec1,
 .aboutsec2 {
   z-index: 100;
+  width: 525px !important;
+  position: relative;
+  top: 80px;
 }
 
 .aboutbutton {
@@ -501,6 +530,8 @@ ul li {
 .appr {
   position: relative;
   top: 260px;
+  z-index: 1000;
+  justify-content: center;
 }
 .row [class*="col"] {
   padding-left: 0;
@@ -512,8 +543,14 @@ ul li {
   }
 }
 
+.apprSec1,
+.apprSec2 {
+  max-width: 800px !important;
+}
+
 .apprSec2 {
   background: url("../images/appraisersBG.jpg") no-repeat center center;
+  background-size: cover;
   position: relative;
 }
 
@@ -630,6 +667,7 @@ ul li {
   color: #1b1f27;
   position: relative;
   top: 0.5rem;
+  width: 371px;
 }
 
 .blog-rule {
@@ -638,7 +676,7 @@ ul li {
   background: #0b91f0;
 }
 .blog-text {
-  font-size: 15px;
+  font-size: 14px;
   color: #4f4f4f;
   position: relative;
   top: 1rem;
@@ -648,7 +686,7 @@ ul li {
   display: flex;
   justify-content: center;
   align-items: center;
-  /* gap: 30px; */
+  gap: 30px;
 }
 .blogarrow {
   position: absolute;
@@ -1024,4 +1062,9 @@ footer .logo {
   position: absolute;
   right: 7%;
   bottom: 7%;
+  transition: all 0.3s ease-in-out;
+}
+
+.click-top:hover {
+  background: #02449c;
 }

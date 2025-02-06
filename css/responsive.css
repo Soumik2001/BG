@@ -1,4 +1,99 @@
+@media (min-width: 1700px) and (max-width: 1710px) {
+  .swiper-slide img {
+    display: block;
+    width: 101%;
+    height: 100%;
+    object-fit: cover;
+  }
+  .slidehead2 {
+    top: 53%;
+    left: 17%;
+    letter-spacing: 2px;
+  }
+  .slidehead1 {
+    top: 42%;
+    left: 17%;
+    letter-spacing: 2px;
+  }
+  .slidebutton {
+    position: absolute;
+    bottom: 10%;
+    left: 17%;
+  }
+  .slidepara {
+    position: absolute;
+    font-size: 25px;
+    bottom: 22%;
+    color: #ffffff;
+    left: 17%;
+  }
+  .mtext {
+    font-size: 40px;
+    font-family: "myFont2";
+    position: relative;
+    top: 2rem;
+    left: 336px;
+  }
+  .teampara {
+    font-size: 18px;
+    color: #212121;
+    margin: 0px 306px 0 323px;
+    position: relative;
+    top: 2.9rem;
+  }
+  .swiper4 {
+    width: 67%;
+    height: 500px;
+    position: relative;
+    left: 17%;
+    overflow: hidden;
+  }
+  .copyrightText {
+    width: 68%;
+    position: relative;
+    left: 25%;
+  }
+  .click-top {
+    right: 13%;
+  }
+  .swiper3 {
+    width: 71.5%;
+    height: 100%;
+    position: relative;
+    left: 15%;
+    overflow: hidden;
+  }
+  .swiper1 {
+    width: 66%;
+    height: 100%;
+    position: relative;
+    left: 17.5%;
+    overflow: hidden;
+  }
+  .aboutbg {
+    width: 990px !important;
+    height: 620px !important;
+    position: absolute;
+    left: 13%;
+    top: 4%;
+  }
+  .navbar {
+    background-color: #0a42ce;
+    position: relative !important;
+  }
+}
+@media (min-width: 1300px) and (max-width: 1380px) {
+  .navbar {
+    background-color: #0a42ce;
+    position: relative !important;
+  }
+}
+
 @media (min-width: 1150px) and (max-width: 1200px) {
+  .navbar {
+    background-color: #0a42ce;
+    position: relative !important;
+  }
   .logo {
     width: 349px;
     height: 50px;
@@ -13,6 +108,13 @@
   .aboutpara1,
   .aboutpara2 {
     padding-right: 30px;
+  }
+  .aboutsec1,
+  .aboutsec2 {
+    z-index: 100;
+    width: 511px !important;
+    position: relative;
+    top: 80px;
   }
   .nav-link {
     min-width: 164px;
@@ -267,6 +369,7 @@
     width: 100%;
     height: 35px;
     background-color: #0a42ce;
+    position: relative !important;
   }
 
   /* slider css */
@@ -325,15 +428,26 @@
   /* About css */
 
   .about {
-    margin: 2.5% 7% 0 !important;
     position: relative;
+    left: 14px;
+    bottom: 48px;
+  }
+
+  .aboutsec1,
+  .aboutsec2 {
+    z-index: 100;
+    width: 45% !important;
+    position: relative;
+    top: 80px;
   }
 
   .aboutbg {
+    width: 720px !important;
+    height: 450px !important;
     z-index: 10;
     position: absolute;
-    top: -18px !important;
-    left: -8%;
+    top: 50px;
+    left: -20px;
   }
   .abouthead {
     font-family: "myFont2";
@@ -382,7 +496,7 @@
   /* service css */
 
   .service {
-    top: 10px;
+    top: 40px;
   }
   .stext {
     font-size: 30px;
@@ -426,7 +540,7 @@
     position: absolute;
     bottom: -12%;
     width: 100px;
-    left: 42%;
+    left: 44%;
   }
 
   /* Appraisers css */
@@ -541,7 +655,7 @@
     position: absolute;
     bottom: -10%;
     width: 100px;
-    left: 42%;
+    left: 44%;
   }
   .blogarrow .swiper-button-prev,
   .blogarrow .swiper-button-next {
@@ -616,7 +730,7 @@
     position: absolute;
     bottom: 13%;
     width: 100px !important;
-    left: 43%;
+    left: 44%;
   }
   .tarrow .swiper-button-prev,
   .tarrow .swiper-button-next {
@@ -764,6 +878,12 @@
     position: absolute;
     right: 8%;
     bottom: 8%;
+  }
+  .mainslider {
+    position: absolute;
+    bottom: 14%;
+    width: 110px;
+    right: 11% !important;
   }
 }
 @media (min-width: 500px) and (max-width: 749px) {
@@ -923,7 +1043,7 @@
   }
   .tophead {
     font-family: "myFont2";
-    color: #1f2126;
+    color: #ffffff;
     font-size: 13px;
     margin-bottom: 0px;
     margin-top: 10px;
@@ -935,12 +1055,15 @@
   }
 
   .toptext {
-    color: #1f2126;
-    font-size: 11px;
+    color: #ffffff;
+    font-size: 11.5px;
+    margin-top: 5px;
   }
+
   .icon {
     width: 15px;
     height: 15px;
+    position: relative;
   }
   .logodetail2 {
     width: 75px;
@@ -999,7 +1122,7 @@
   .slidebutton2 {
     position: relative;
     left: 10px;
-    top: -1px;
+    top: 0px;
   }
 
   .swiper-next {
@@ -1034,18 +1157,44 @@
     border-radius: 50%;
   }
 
+  /* Navbar css */
+
+  .navbar {
+    width: 100%;
+    height: 50px;
+    background-color: #ffffff;
+  }
+
   .navbar-brand {
     background: #ffffff;
     border-radius: 7px;
     position: relative;
-    top: -2px;
+    top: -4px;
   }
+  .fa-bars {
+    color: #000 !important;
+  }
+
+  .sm-loc {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    position: relative;
+    top: -4px;
+    left: 15px;
+    /* gap: 20px; */
+  }
+
+  .navbar-toggler {
+    border: #000 !important;
+  }
+
   .navbar-toggler {
     position: relative;
-    top: -2px;
+    top: -3px;
     width: 35px !important;
     height: 35px !important;
-    padding: 5px 0 0 0 !important;
+    padding: 8px 0 0 0 !important;
     align-content: center !important;
   }
   .navbar-collapse {
@@ -1057,7 +1206,7 @@
   }
   .navbar-nav {
     position: relative;
-    background: #0a42ce;
+    background: #ffffff;
     z-index: 999;
   }
   .navfirst {
@@ -1070,24 +1219,29 @@
   .nav-link {
     min-width: 101px;
     height: 28px;
+    font-weight: 600;
     align-content: center;
     text-transform: uppercase;
-    color: #ffffff !important;
+    color: #000 !important;
     display: flex !important;
     justify-content: center;
     align-items: center;
     font-size: 13px;
   }
+  .nav-link:hover {
+    background: #0258c9;
+  }
   /* ABOUT CSS */
 
   .aboutbg {
+    width: 720px !important;
+    height: 450px !important;
     z-index: 10;
     position: absolute;
-    top: -14px;
   }
   .abouthead {
     font-family: "myFont2";
-    font-size: 27px;
+    font-size: 23px;
   }
   .aboutpara1 {
     font-size: 14px;
@@ -1128,12 +1282,20 @@
   .service {
     z-index: 1000 !important;
     position: relative;
-    top: 30px;
+    top: 48px;
   }
 
   .stext {
-    font-size: 27px;
+    font-size: 23px;
     font-family: "myFont2";
+  }
+
+  .hero {
+    width: 301px !important;
+    height: 220px !important;
+    transition: all 0.3s ease-in-out;
+    position: relative;
+    left: 4%;
   }
   .card1 img,
   .card2 img,
@@ -1143,7 +1305,7 @@
   }
   .card-title {
     font-family: "myFont2";
-    font-size: 21px;
+    font-size: 19px;
     color: #212121;
     position: relative;
     top: 0.8rem;
@@ -1178,7 +1340,7 @@
 
   .apprsliderhead {
     font-family: "myFont2";
-    font-size: 24px;
+    font-size: 22px;
     color: #ffffff;
   }
   .apprsliderImage1 {
@@ -1304,7 +1466,7 @@
     height: 552px;
   }
   .mtext {
-    font-size: 26px;
+    font-size: 23px;
     font-family: "myFont2";
     position: relative;
     top: 1rem;
@@ -1350,13 +1512,13 @@
   }
   .teamname {
     font-family: "myFont2";
-    font-size: 20px;
+    font-size: 18px;
     color: #0b91ef;
     position: relative;
     top: 6px;
   }
   .teamrole {
-    font-size: 16px;
+    font-size: 15px;
     color: #212121;
     position: relative;
     top: -12px;
@@ -1501,19 +1663,20 @@
     left: 6px;
   }
   .textA {
-    font-size: 12px;
+    font-size: 10.5px;
     color: #29292d;
   }
   .seclist {
     position: relative;
     left: 9%;
+    margin-bottom: 0;
   }
   .list-unstyled {
     gap: 0px;
     display: flex;
     flex-direction: column;
     position: relative;
-    top: -9px;
+    top: -5px;
   }
   .textA i {
     margin-right: 6px;
@@ -1521,7 +1684,7 @@
   }
   .loc {
     position: relative;
-    bottom: 30px;
+    bottom: 10px;
   }
   .spc {
     width: 147px;
@@ -1567,6 +1730,20 @@
     position: absolute;
     right: 7%;
     bottom: 4%;
+  }
+  .aboutsec1,
+  .aboutsec2 {
+    z-index: 100;
+    width: 100% !important;
+    position: relative;
+    top: 30px;
+  }
+  .about {
+    margin: 0% 1% 0 !important;
+  }
+  .list-unstyled .lifirst {
+    list-style-type: disc !important;
+    margin-top: -5px;
   }
 }
 

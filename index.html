@@ -14,9 +14,9 @@
     crossorigin="anonymous" referrerpolicy="no-referrer" />
   <link rel="stylesheet" href="./css/bootstrap.min.css">
   <!-- <link rel="stylesheet" href="./css/bootstrap.css"> -->
-  <link rel="stylesheet" href="./css/swiper-bundle.min.css">
   <script src="./js/bootstrap.min.js"></script>
   <!-- <script src="./js/bootstrap.js"></script> -->
+  <link rel="stylesheet" href="./css/swiper-bundle.min.css">
   <script src="./js/swiper-bundle.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"
     integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g=="
@@ -26,7 +26,7 @@
 <body>
   <div id="fullpage">
     <!-- Top section start -->
-    <div class="topbar mx-2 mx-md-5" id="topbar">
+    <div class="topbar d-none d-md-block mx-2 mx-md-5" id="topbar">
       <div class="row container-fluid">
         <div class="col-4 col-md-12 logosection">
           <a href="#"><img src="images/logo.png" alt="Logo" class="logo d-none d-md-flex"></a>
@@ -58,11 +58,28 @@
 
     <!-- Navbar start -->
 
-    <nav class="navbar navbar-expand-sm bg-violet ">
+    <nav class="navbar navbar-expand-sm sticky-top">
       <div class="container-fluid navfirst">
         <a class="navbar-brand d-block d-sm-none" href="#"><img src="images/logo.png"
             style="width: 160px; height: 23px;" alt=""></a>
-        <button class="navbar-toggler text-light" type="button" data-bs-toggle="collapse"
+        <div class="sm-loc d-flex d-md-none">
+          <h1 popover id="myheader">
+            <p class="tophead">Office Location</p>
+            <p class="toptext">Topa Financial Tower, 745 Fort Street,
+              Honolulu, Hawaii 96813</p>
+          </h1>
+          <button class="toolbtn1" popovertarget="myheader"><img src="images/location.png" alt="Location" class="icon">
+          </button>
+          <h1 popover id="myheader1">
+            <p class="tophead">Call US</p>
+            <p class="toptext">(808) 428-4401</p>
+          </h1>
+          <button class="toolbtn1" popovertarget="myheader1"><img src="images/phone.png" alt="Phone" class="icon phone">
+          </button>
+
+          <a href="#"></a>
+        </div>
+        <button class="navbar-toggler text-black" type="button" data-bs-toggle="collapse"
           data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
           aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"><i class="fa fa-bars" aria-hidden="true"
@@ -141,6 +158,36 @@
             <a href="#"><button class="slidebutton2">contact us</button></a>
           </div>
         </div>
+        <div class="swiper-slide"><img src="images/sliderImage4.jpg" alt="Slider3">
+          <div class="socialmedia">
+            <a href="#"><i class="fa-brands fa-twitter"></i></a>
+            <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+            <a href="#"><i class="fa-brands fa-instagram"></i></a>
+            <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+          </div>
+          <h1 class="slidehead1">Credible Solutions</h1>
+          <h1 class="slidehead2">Timely Results</h1>
+          <p class="slidepara">Hawaii Based Real Estate Appraisers & Consultants</p>
+          <div class="slidebutton">
+            <a href="#"><button class="aboutbutton"><span class="button-content">Our services</span></button></a>
+            <a href="#"><button class="slidebutton2">contact us</button></a>
+          </div>
+        </div>
+        <div class="swiper-slide"><img src="images/sliderImage5.jpg" alt="Slider3">
+          <div class="socialmedia">
+            <a href="#"><i class="fa-brands fa-twitter"></i></a>
+            <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+            <a href="#"><i class="fa-brands fa-instagram"></i></a>
+            <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+          </div>
+          <h1 class="slidehead1">Credible Solutions</h1>
+          <h1 class="slidehead2">Timely Results</h1>
+          <p class="slidepara">Hawaii Based Real Estate Appraisers & Consultants</p>
+          <div class="slidebutton">
+            <a href="#"><button class="aboutbutton"><span class="button-content">Our services</span></button></a>
+            <a href="#"><button class="slidebutton2">contact us</button></a>
+          </div>
+        </div>
 
       </div>
       <div class="mainslider">
@@ -152,8 +199,8 @@
 
     <!-- About us section -->
 
-    <div class="about row">
-      <img src="images/aboutBG.jpg" alt="About background" class="aboutbg img-fluid">
+    <div class="about row container-fluid">
+      <img src="images/aboutbg.jpg" alt="About background" class="aboutbg img-fluid">
       <div class="col-12 col-md-6 aboutsec1">
         <h2 class="abouthead">About Us</h2>
         <p class="aboutpara1">Lorem ipsum dolor sit consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
@@ -408,7 +455,7 @@
         <img src="images/appraisers.jpg" alt="Hero" class="apprImage1 img-fluid">
       </div>
       <div class="col-12 col-md-6 apprSec2">
-        <img src="images/appraisersBG.jpg" alt="Hero" class="d-flex d-md-none apprImage2 img-fluid">
+        <img src="images/appraisersbg.jpg" alt="Hero" class="d-flex d-md-none apprImage2 img-fluid">
         <div class="apprslider">
           <div class="swiper2 mySwiper4">
             <div class="swiper-wrapper">
@@ -425,7 +472,7 @@
               <div class="swiper-slide">
                 <h1 class="apprsliderhead">Our Appraisers</h1>
                 <img src="images/appraisers2.jpg" alt="Image1" class="apprsliderImage1">
-                <h3 class="apprslidertitle">John Doe</h3>
+                <h3 class="apprslidertitle">Lorem ipsum</h3>
                 <p class="apprsliderpara">Lorem ipsum dolor sit consectetur adipiscing elit, sed do eiusmod tempor
                   incididunt
                   ut labore dolore magna aliqua. Ut enim ad minim veniam exercitation ullamco laboris nisi aliquip ex ea
@@ -434,7 +481,7 @@
               <div class="swiper-slide">
                 <h1 class="apprsliderhead">Our Appraisers</h1>
                 <img src="images/appraisers3.jpg" alt="Image1" class="apprsliderImage1">
-                <h3 class="apprslidertitle">John Doe</h3>
+                <h3 class="apprslidertitle">dolor sit</h3>
                 <p class="apprsliderpara">Lorem ipsum dolor sit consectetur adipiscing elit, sed do eiusmod tempor
                   incididunt
                   ut labore dolore magna aliqua. Ut enim ad minim veniam exercitation ullamco laboris nisi aliquip ex ea
@@ -443,7 +490,7 @@
               <div class="swiper-slide">
                 <h1 class="apprsliderhead">Our Appraisers</h1>
                 <img src="images/appraisers4.jpg" alt="Image1" class="apprsliderImage1">
-                <h3 class="apprslidertitle">John Doe</h3>
+                <h3 class="apprslidertitle">minim veniam</h3>
                 <p class="apprsliderpara">Lorem ipsum dolor sit consectetur adipiscing elit, sed do eiusmod tempor
                   incididunt
                   ut labore dolore magna aliqua. Ut enim ad minim veniam exercitation ullamco laboris nisi aliquip ex ea
@@ -452,7 +499,7 @@
               <div class="swiper-slide">
                 <h1 class="apprsliderhead">Our Appraisers</h1>
                 <img src="images/appraisers5.jpg" alt="Image1" class="apprsliderImage1">
-                <h3 class="apprslidertitle">John Doe</h3>
+                <h3 class="apprslidertitle">laboris nisi</h3>
                 <p class="apprsliderpara">Lorem ipsum dolor sit consectetur adipiscing elit, sed do eiusmod tempor
                   incididunt
                   ut labore dolore magna aliqua. Ut enim ad minim veniam exercitation ullamco laboris nisi aliquip ex ea
@@ -994,7 +1041,7 @@
           </div>
           <div class="col-md-6 footerImage">
             <a href="#topbar">
-              <div class="click-top"><i class="fa-solid fa-angle-up text-light fa-lg"></i></div>
+              <div class="click-top" id="scroll"><i class="fa-solid fa-angle-up text-light fa-lg"></i></div>
             </a>
           </div>
         </div>
